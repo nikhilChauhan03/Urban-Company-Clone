@@ -36,30 +36,16 @@ hr{
     border:1px solid rgb(183, 174, 174);
 }
 .first_div{
-    -webkit-box-align: stretch;
-    -webkit-box-direction: normal;
-    -webkit-box-orient: vertical;
-    align-items: stretch;
-    border: 0px solid black;
-    box-sizing: border-box;
+    
     display: flex;
-    flex-basis: auto;
-    flex-direction: column;
-    flex-shrink: 0;
-    margin: 0px;
-    min-height: 0px;
-    min-width: 0px;
-    padding: 0px;
-    position: relative;
-    z-index: 0;
-    border:1px solid black;
+    /* border:1px solid black; */
     margin-top: 50px;
     height: 400px;
 }
 .first_div>#spa_for_women{
     margin-right: 32px;
     width: 448px;
-    border: 1px solid red;
+    /* border: 1px solid red; */
     margin: 0!important;
     height: 100%;
     background-color: #fff;
@@ -96,7 +82,7 @@ hr{
     /* border: 1px solid tomato; */
     width: 60%;
     margin: auto;
-    font-size:30px;
+    font-size:40px;
 }
 #women+#rating{
 /* border:1px solid black; */
@@ -176,4 +162,22 @@ img{
     border: 1px solid black;
     width: 40%;
    
+}
+.video{
+    margin-left: 60px;
+   
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+.main_part1_images+#first_image{
+    display: flex;
+    border: 1px solid blue;
+    height: auto;
+}
+.rating{
+    color:grey;
+    font-size: 15px;
+    margin-top: 10px;
 }
