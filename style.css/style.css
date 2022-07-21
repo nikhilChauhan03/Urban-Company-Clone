@@ -327,18 +327,90 @@ hr {
   font-weight: 600;
   cursor: pointer;
 }
+.nikhil_head_address_for_cross
+{
+    display: flex;
+    align-items: center;
+    font-size: 22px;
+    justify-content: space-between ;
+    align-items: center;
+    padding:0px 40px;
+    height: 70px;
+}
 .nikhil_address_container {
   width: 60%;
   height: 600px;
   /* border: 1px solid; */
+  visibility: hidden;
   position: absolute;
-  top: 7rem;
+  top: 2rem;
   left: 22rem;
   background-color: white;
   border-radius: 20px;
-  max-height: 0px;
+  border: 2px solid grey;
+
+  /* max-height: 0px; */
 }
-.nikhil_address_container:active
+.active
 {
-    max-height: 600px;
+   visibility: visible;
 }
+
+.nikhil_address_semi_container
+{
+    width: 80%;
+    margin: auto;
+}
+.nikhil_name_pincode_mobile, 
+.nikhil_city_state_landmark
+{
+    display: flex;
+    justify-content: space-around;
+    gap:40px
+    
+}
+.nikhil_name_pincode_mobi div
+{
+    width: 40%;
+}
+.nikhil_address_semi_container input, .nikhil_address_semi_container select
+{
+    display:block;
+    width: 300px;
+    margin: auto;
+    height: 40px;
+    border-radius: 10px;
+    border: 1px solid grey;
+    margin-top: 15px;
+    padding: 10px;
+}
+
+.nikhil_area_and_street input
+{
+width: 89%;
+height: 100px;
+
+}
+
+.nikhil_save_address
+{
+    display: block;
+    margin: auto;
+    padding: 10px;
+    width: 100px;
+    height: 40px;
+    background-color: #6e42e5;
+    color: white;
+    border-radius: 10px;
+    font-weight: 600;
+    border: none;
+    margin-top: 40px;
+}
+
+.nikhil_address_heading
+{
+    text-align: center;
+    margin-left:23rem ;
+    font-size: 21px;
+}
+
