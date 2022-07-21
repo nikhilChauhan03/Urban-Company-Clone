@@ -349,3 +349,14 @@ display: flex;
 align-items: center;
 justify-content: center;
 }
+.nikhil_button_price h3{
+  width: 18px;
+  font-size: 22px;
+}
+.nikhil_button_price p{
+  font-size: 17px;
+text-decoration: line-through;
+display: inline;
+width: 19px;
+margin-right: 150px;
+}
