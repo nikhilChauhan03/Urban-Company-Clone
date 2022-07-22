@@ -1,0 +1,187 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    outline: none;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+
+}
+
+
+.wrapper {
+    width: 100%;
+    overflow: hidden;
+    margin-bottom: 50px;
+    border: 1px solid red;
+    
+  }
+  
+  .slides-container {
+    height: 500px;
+    
+    position: relative;
+    margin-bottom: 200px;
+    
+  }
+  
+  .slide-image {
+    height: 100%;
+    width: 100%;
+    position: absolute;
+    margin-bottom: 100px;
+  }
+  
+  .slide-image video {
+    width: 30%;
+    height: 60%;
+    object-fit: cover;
+    margin-left: 900px;
+    border-radius: 20px;
+    margin-bottom: 200px;
+    
+  }
+  
+  .next-btn,
+  .prev-btn {
+    background: #eee;
+    padding: 16px;
+    position: absolute;
+    top: 50%;
+    transform: translateY(-20%);
+    font-size: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.6);
+    z-index: 100;
+    cursor: pointer;
+    
+  }
+  
+  .next-btn:hover,
+  .prev-btn:hover {
+    background: #48f9ff;
+  }
+  
+  .prev-btn {
+    left: 900px;
+    margin-top: 110px;
+    border-radius: 50%;
+  }
+  
+  .next-btn {
+    right: 160px;
+    margin-top: 110px;
+    border-radius: 50%;
+  }
+  
+  
+
+/*navigation dots*/
+
+.navigation-dots{
+    display: flex;
+    height: 32px;
+    align-items: center;
+    justify-content: center;
+    margin-left: 700px;
+
+}
+
+.single-dot{
+    background-color:white;
+    height: 16px;
+    width: 16px;
+    border: 2px solid navy;
+    border-radius: 50%;
+    cursor: pointer;
+    transition: 400ms;
+    margin-bottom: 900px;
+    
+
+}
+
+.single-dot.active{
+    background-color: black;
+}
+
+
+
+h1{
+    
+    margin-left: 300px;
+   
+    
+}
+
+p {
+    margin-left: 300px;
+}
+
+.task{
+    margin-left: 300px;
+    margin-top: 300px;
+
+
+}
+#first{
+
+    width: 900px;
+    height: 5px;
+    margin-left: 300px;
+    font-weight: 50px;
+    background-color: black;
+}
+
+
+#second{
+    margin-top: 20px;
+    width: 900px;
+    height: 5px;
+    margin-left: 300px;
+    font-weight: 50px;
+    background-color: black;
+}
+#pack{
+    width: 90%;
+           display: grid;
+           grid-template-columns: repeat(6,100px);
+           gap: 20px;
+           margin: auto;
+           
+       }
+
+       
+#pack>div>img{
+    width: 80px;
+    border-radius: 15px;
+
+
+}
+
+#pack>div>p{
+    font-size: 15px;
+    margin-left: 20px;
+    margin-top: 0%;
+}
+
+/*pricing section*/
+
+.pro{
+    width: 100%;
+    display: flex;
+    border: 1px solid greenyellow;
+    margin-top: 20px
+}
+
+.price{
+    width: 30%;
+    height: 500px;
+    border: 1px solid blue;
+    margin-left: 300px;
+
+}
+
+.offer{
+    width: 25%;
+    height: 500px;
+    border: 1px solid red;
+    margin-left: 20px;
+}
