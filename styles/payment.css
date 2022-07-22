@@ -1,0 +1,351 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+:root{
+
+    --lite_black: rgb(53, 53, 53);
+    --grey:rgb(237, 237, 237);
+
+
+}
+
+.nikhil_head {
+  width: 80%;
+  margin: auto;
+  margin-top: 10px;
+}
+
+.nikhil_top_part {
+  /* width: 80%; */
+  border: 1px;
+  margin: auto;
+  padding: 20px;
+  font-size: 22px;
+}
+
+.nikhil_top_part > img {
+  width: 150px;
+}
+
+.nikhil_top_part > h2 {
+  width: 60%;
+  font-size: 25px;
+  margin: 10px 0 10px 0;
+}
+
+/* flex for boxes from here */
+.nikhil_lr {
+  display: flex;
+  justify-content: space-around;
+  /* border: 1px solid green; */
+  gap: 50px;
+  /* height: 500px; */
+}
+
+.nikhil_left {
+  width: 60%;
+  /* border: 1px solid yellow; */
+  padding: 20px;
+}
+
+.nikhil_right {
+  /* border: 1px solid yellow; */
+  padding: 20px;
+  width: 40%;
+}
+
+/* money gaurentee section */
+.nikhil_money_back {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.nikhil_geniuen > img {
+  width: 50px;
+}
+.nikhil_money_text > p:nth-child(1) {
+  font-size: 22px;
+  font-weight: 600;
+  margin: 10px 0px 10px 0px;
+}
+.nikhil_money_text > p:nth-child(2)
+{
+    color: var(--lite_black);
+}
+hr {
+  margin: 40px 0px 40px 0px;
+  height: 10px;
+  border-radius: 20px;
+  background-color: whitesmoke;
+  border: none;
+  padding: 0px;
+}
+
+/* services per year sectoin */
+.nikhil_services
+{
+margin:5px 0px 20px 0px;
+}
+.nikhil_services>p
+{
+    color: rgb(53, 53, 53);
+    font-size: 19px;
+    line-height: 50px;
+}
+
+.nikhil_services>button
+{
+    width: 40px;
+    height: 40px;
+    border-radius: 10px;
+    border:2px solid var(--grey);
+    background: white;
+    color: var(--lite_black);
+    font-weight: 600;
+    font-size: 18px;
+    cursor: pointer;
+}
+
+.nikhil_services>div{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 59%;
+    font-size: 18px;
+    margin-top: 18px;
+}
+
+.nikhil_plusInNum{
+    /* text-align: center; */
+    margin: 40px 0px 40px 0px;
+}
+.nikhil_4_boxes
+{
+display: grid;
+grid-template-columns: repeat(4,1fr);
+justify-content: space-around;
+align-items: center;
+gap:40px;
+
+}
+.nikhil_4_boxes>div>img{
+    width: 30px;
+    height: 30px;
+    margin-bottom: 30px;
+}
+.nikhil_4_boxes>div>p:nth-child(2)
+{
+    line-height: 45px;
+    font-weight: 600;
+}
+.nikhil_4_boxes>div
+{
+    padding: 20px;
+    border-radius: 15px;
+}
+
+
+/* faq section */
+.nikhil_faq_select
+{
+    
+   border-bottom: 1px solid grey;
+   cursor: pointer;
+   margin-bottom: 0px;
+   font-size: 18px;
+   padding-bottom:10px ;
+}
+
+.nikhil_faq_questions
+{
+    display: grid;
+    /* gap: 20px; */
+}
+
+.nikhil_qus
+{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 3px;
+}
+.nikhil_ans
+{
+
+padding: 3px;
+max-height: 0px;
+overflow: hidden;
+transition: max-height;
+}
+.nikhil_ans>p{
+    margin-bottom: 18px;
+    color: rgb(55, 55, 55);
+}
+
+.nikhil_qus>p{
+    color: black;
+    margin-bottom: 14px;
+}
+
+.nikhil_faq_select.active .nikhil_ans{
+    max-height: 300px;
+}
+
+.nikhil_faq_select.active .nikhil_qus>i{
+
+    transform: rotate(180deg);
+
+}
+
+/* reviews section */
+
+.nikhil_reviews
+{
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 20px;
+}
+
+.nikhi_img_details
+{
+width: 35%;
+display: flex;
+justify-content: space-between;
+align-items: center;
+}
+.nikhil_img img{
+width: 70px;
+border-radius: 15px;
+}
+.nikhil_plus_price img{
+width: 25px;
+display:inline;
+
+}
+
+.nikhil_plus_price>div
+{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+
+
+.nikhi_img_details>div>p:nth-child(1)
+{
+    line-height: 28px;
+    font-weight: 600;
+    font-size: 19px;
+}
+.nikhi_img_details>div>p:nth-child(2)
+{
+    color: var(--lite_black);
+     line-height: 28px;
+    font-weight: 600;
+    font-size: 14px;
+}
+
+.nikhil_main_review_section
+{
+    box-shadow: rgba(17, 17, 26, 0.3) 0px 1px 0px;
+    padding: 30px 0px
+    /* text-align: center; */
+
+
+}
+
+/* right box 12 month box  */
+
+.nikhil_12_month
+{
+    display: flex;
+    justify-content: space-between;
+    box-shadow: rgba(0, 0, 0, 0.15) 0px 2px 8px;
+    margin-bottom: 30px;
+    align-items: center;
+    height: 130px;
+    padding: 20px;
+    border-radius: 15px;
+    
+
+}
+
+.nikhil_monthly_detais p:nth-child(1)
+{
+line-height: 33px;
+
+font-size: 13px;
+color: green;
+}
+.nikhil_monthly_detais p:nth-child(2)
+{
+line-height: 33px;
+font-size: 20px;
+font-weight: 600;
+}
+.nikhil_monthly_detais p:nth-child(3)
+{
+line-height: 33px;
+color: grey;
+font-size: 19px;
+}
+
+.nikhil_ra_button button
+{
+font-size: 20px;
+width: 120px;
+height: 40px;
+border-radius: 15px;
+cursor: pointer;
+border:2px solid rgb(209, 209, 209);
+color:blueviolet
+}
+
+.nikhil_payment{
+
+    width: 30%;
+    height: 150px;
+    z-index: 1;
+    left:1000px;
+    top: 690px;
+    position: fixed;
+
+
+}
+
+.nikhil_button_price
+{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.nikhil_button_price button
+{
+    width: 190px;
+    background-color: #6e42e5;
+    color: white;
+    font-size: 18px;
+    border:none;
+    padding: 10px;
+    height: 50px;
+    text-align: center;
+    border-radius: 10px;
+}
+.nikhil_discount
+{
+color: green;
+margin-bottom: 12px;
+background-color: #edf7f2;
+text-align: center;
+height: 30px;
+display: flex;
+align-items: center;
+justify-content: center;
+}
