@@ -11,12 +11,12 @@
 #main {
   text-align: center;
   width: 28%;
-  padding: 20px;
+  padding: 43px;
   margin: 30px auto;
   /* border:1px solid red; */
   box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
   border-radius: 8px;
-
+  /* margin-left: 1060px; */
 }
 
 #main h2 {

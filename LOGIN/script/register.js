@@ -1,5 +1,5 @@
 
-  document.getElementById("frm").addEventListener("submit", callfun);
+  let form=document.getElementById("frm").addEventListener("submit", callfun);
   var data = JSON.parse(localStorage.getItem("createaccount")) || [];
 
   function callfun(event) {
@@ -13,8 +13,23 @@
       name: name,
       pass: pass,
     };
-    data.push(obj);
-    localStorage.setItem("createaccount", JSON.stringify(data));
+    if(checkEmail(obj.email)==true){
+        data.push(obj);
+        localStorage.setItem("createaccount", JSON.stringify(data));
+
+    }else{
+        alert("Account already exists");
+    }
+    function checkEmail(email){
+        let filtered=data.filter(function(elem){
+            return email===elem.email;
+        })
+        if(filtered.length>0){
+            return false;
+        }else{
+            return true;
+        }
+    }
     window.location.href = "signin.html";
     console.log(data);
   }
