@@ -28,7 +28,7 @@
 hr {
   background-color: whitesmoke;
   border-radius: none;
-  margin: 30px 0px 0px 0px;
+  margin: 23px 0px 0px 0px;
 }
 
 /* customizatoin of the container */
@@ -37,18 +37,18 @@ hr {
   display: grid;
   grid-template-columns: 55% 42.5%;
   gap: 30px;
-  border: 1px solid green;
+  /* border: 1px solid green; */
   /* padding: 10px; */
 }
 
 /* customization of left and right box */
 .nikhil_left_box_summary {
-  border: 1px solid yellow;
+  /* border: 1px solid yellow; */
   padding-top: 20px;
 }
 
 .nikhil_right_box_summary {
-  border: 1px solid yellow;
+  /* border: 1px solid yellow; */
 }
 
 /* customization fo title section */
@@ -105,7 +105,7 @@ hr {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  margin-top: 20px;
+  margin-top: 40px;
 }
 
 /* 2nd horizontal line */
@@ -115,6 +115,7 @@ hr {
   border: none;
   border-radius: 10px;
   margin-bottom: 20px;
+  margin-top: 30px;
 }
 
 .nikhil_frequently_added_container {
@@ -122,7 +123,7 @@ hr {
   grid-template-columns: repeat(4, 1fr);
   align-items: center;
   gap: 25px;
-  margin-top: 20px;
+  margin:30px 0px;
 }
 .nikhil_frquently_added_items img {
   width: 100%;
@@ -143,19 +144,21 @@ hr {
   display: block;
   margin-left: 18px;
   margin-top: 10px;
-  width: 70px;
-  height: 30px;
+  width: 90px;
+  height: 35px;
   color: blueviolet;
   border-radius: 10px;
-  border: 1px solid grey;
+  border: 1px solid rgb(204, 204, 204);
   cursor: pointer;
+  font-size: 15;
+  font-weight: 600;
+  background-color: white;
+  
 }
 
 .nikhil_frquently_added_items {
-  border-bottom: 1px solid grey;
-  border-left: 1px solid grey;
-  border-right: 1px solid grey;
-
+  
+  border: 1px solid rgb(224, 224, 224);
   padding-bottom: 10px;
   border-radius: 10px;
 }
@@ -253,7 +256,7 @@ hr {
   text-align: center;
   color: green;
   margin-top: 30;
-  left: 6.1rem;
+  left: 5.6rem;
 }
 
 .nikhil_add_tip_automatic {
@@ -279,7 +282,7 @@ hr {
 .nikhl_add_address_and_slot {
   width: 100%;
   height: 65px;
-  margin-top: 8px;
+  margin-top: 3px;
   border-radius: 10px;
   border: none;
   background: #6e42e5;
@@ -288,8 +291,6 @@ hr {
   font-weight: 600;
   cursor: pointer;
 }
-
-
 
 .nikhil_address_insdie_box {
   display: flex;
@@ -301,6 +302,8 @@ hr {
   border-radius: 10px;
   height: 80px;
   visibility: hidden;
+  margin: 10px auto 5px;
+
   /* margin: 20px 0px; */
 }
 
@@ -327,15 +330,14 @@ hr {
   font-weight: 600;
   cursor: pointer;
 }
-.nikhil_head_address_for_cross
-{
-    display: flex;
-    align-items: center;
-    font-size: 22px;
-    justify-content: space-between ;
-    align-items: center;
-    padding:0px 40px;
-    height: 70px;
+.nikhil_head_address_for_cross {
+  display: flex;
+  align-items: center;
+  font-size: 22px;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0px 40px;
+  height: 70px;
 }
 .nikhil_address_container {
   width: 60%;
@@ -348,69 +350,58 @@ hr {
   background-color: white;
   border-radius: 20px;
   border: 2px solid grey;
-
   /* max-height: 0px; */
 }
-.active
-{
-   visibility: visible;
+.active {
+  visibility: visible;
 }
 
-.nikhil_address_semi_container
-{
-    width: 80%;
-    margin: auto;
+.nikhil_address_semi_container {
+  width: 80%;
+  margin: auto;
 }
-.nikhil_name_pincode_mobile, 
-.nikhil_city_state_landmark
-{
-    display: flex;
-    justify-content: space-around;
-    gap:40px
-    
+.nikhil_name_pincode_mobile,
+.nikhil_city_state_landmark {
+  display: flex;
+  justify-content: space-around;
+  gap: 40px;
 }
-.nikhil_name_pincode_mobi div
-{
-    width: 40%;
+.nikhil_name_pincode_mobi div {
+  width: 40%;
 }
-.nikhil_address_semi_container input, .nikhil_address_semi_container select
-{
-    display:block;
-    width: 300px;
-    margin: auto;
-    height: 40px;
-    border-radius: 10px;
-    border: 1px solid grey;
-    margin-top: 15px;
-    padding: 10px;
+.nikhil_address_semi_container input,
+.nikhil_address_semi_container select {
+  display: block;
+  width: 300px;
+  margin: auto;
+  height: 40px;
+  border-radius: 10px;
+  border: 1px solid grey;
+  margin-top: 15px;
+  padding: 10px;
 }
 
-.nikhil_area_and_street input
-{
-width: 89%;
-height: 100px;
-
+.nikhil_area_and_street input {
+  width: 89%;
+  height: 100px;
 }
 
-.nikhil_save_address
-{
-    display: block;
-    margin: auto;
-    padding: 10px;
-    width: 100px;
-    height: 40px;
-    background-color: #6e42e5;
-    color: white;
-    border-radius: 10px;
-    font-weight: 600;
-    border: none;
-    margin-top: 40px;
+.nikhil_save_address {
+  display: block;
+  margin: auto;
+  padding: 10px;
+  width: 100px;
+  height: 40px;
+  background-color: #6e42e5;
+  color: white;
+  border-radius: 10px;
+  font-weight: 600;
+  border: none;
+  margin-top: 40px;
 }
 
-.nikhil_address_heading
-{
-    text-align: center;
-    margin-left:23rem ;
-    font-size: 21px;
+.nikhil_address_heading {
+  text-align: center;
+  margin-left: 23rem;
+  font-size: 21px;
 }
-
