@@ -108,6 +108,12 @@ font-weight: 500px;
 .fa-heart{
     color: blue;
 }
+#images{
+    background-color: white;
+    position: -webkit-sticky;
+  position: sticky;
+  top: 0;
+}
 #mini-images{
     /* border: 1px solid black; */
     height: 70px;
@@ -139,24 +145,66 @@ img{
    margin-top: 30px;
 }
 .main_part{
-    height: 500vw;
+    height: 600vw;
     border: 1px solid black;
     margin-top: 40px;
+    display: flex;
 }
 .main_part1{
     width: 60%;
-    height: 500vw;
+    height: 600vw;
     border: 1px solid red;
 }
 .main_part1>div{
     width: 80%;
     margin: auto;
-    border: 1px solid green;
+    /* border: 1px solid green; */
     height: 550px;
 }
 .main_part1_images{
     width: 100%;
     height: 320px;
+}
+.cashback{
+    /* border: 1px solid yellow; */
+    width: 40%;
+
+}
+.cashback>.mini_cashback{
+width: 60%;
+height: 500px;
+/* border: 1px solid tomato; */
+margin:40px 0px 0px 30px;
+overflow: scroll;
+position: -webkit-sticky;
+  position: sticky;
+  top: 0;
+}
+.cashback>.mini_cashback>div{
+    margin-top: 35px;
+    height: auto;
+    background-color: rgb(228, 218, 218);
+}
+.flex_p{
+    /* border: 1px solid blue; */
+    display: flex;
+    gap: 5px;
+    font-weight: 300;
+    font-size: 18px;
+}
+.flex_p>.fa-circle-plus{
+   font-size: 15px;
+   color: blue;
+   padding: 0px 8px 0px 8px;
+}
+div>p{
+    margin-left: 35px;
+    margin-top: 5px;
+    color: rgb(84, 78, 78);
+    font-size: 15px;
+}
+.fa-tag{
+    color: #2FCD72;
 }
 .bestseller{
     border: 1px solid black;
@@ -171,7 +219,63 @@ img{
     align-items: center;
     
 }
-.main_part1_images+#first_image{
+.main_part1_images+.first_image{
+    display: flex;
+    /* border: 1px solid blue; */
+    height: auto;
+    margin-top: 20px;
+    justify-content: space-between;
+}
+.main_part1_images+.first_image1{
+    display: flex;
+    /* border: 1px solid blue; */
+    height: auto;
+    margin-top: 20px;
+    justify-content: space-between;
+}
+.main_part1_images+.first_image2{
+    display: flex;
+    /* border: 1px solid blue; */
+    height: auto;
+    margin-top: 20px;
+    justify-content: space-between;
+}
+.main_part1_images+.first_image3{
+    display: flex;
+    /* border: 1px solid blue; */
+    height: auto;
+    margin-top: 20px;
+    justify-content: space-between;
+}
+.main_part1_images+.first_image4{
+    display: flex;
+    /* border: 1px solid blue; */
+    height: auto;
+    margin-top: 20px;
+    justify-content: space-between;
+}
+.main_part1_images+.first_image5{
+    display: flex;
+    /* border: 1px solid blue; */
+    height: auto;
+    margin-top: 20px;
+    justify-content: space-between;
+}
+.main_part1_images+.first_image6{
+    display: flex;
+    /* border: 1px solid blue; */
+    height: auto;
+    margin-top: 20px;
+    justify-content: space-between;
+}
+.main_part1_images+.first_image7{
+    display: flex;
+    /* border: 1px solid blue; */
+    height: auto;
+    margin-top: 20px;
+    justify-content: space-between;
+}
+.main_part1_images+.first_image8{
     display: flex;
     /* border: 1px solid blue; */
     height: auto;
@@ -197,6 +301,8 @@ img{
     background-color: white;
     border-radius: 8px;
     font-size: 15px;
+    display: flex;
+    gap: 5px;
 }
 .add_items>p{
     font-size: 15px;
@@ -217,4 +323,87 @@ img{
 #alag{
     color:purple;
 margin-top: 15px;
+}
+.r1{
+    display: flex;
+}
+.main_part1>div{
+    margin-top: 30px;
+}
+.main_part_2{
+    /* border: 1px solid yellow; */
+    height: auto;
+}
+.ultimate{
+    display: flex;
+    justify-content:space-between;
+}
+.ultimate>h3{
+    margin-right: 40px;
+    color: rgb(56, 56, 224);
+}
+.ultimate>h1{
+    font-weight: 700;
+}
+.ultimate+.package{
+height: auto;
+/* kl,..ilioklokl */
+margin-top: 30px;
+}
+.package>.fa-monero{
+    color: #10de66;
+}
+.package>span{
+    color: rgb(45, 45, 229);
+    margin-left: 10px;
+}
+.face{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 7px;
+    margin-right: 40px;
+    /* border: 1px solid magenta; */
+    position: relative;
+}
+.face>h4{
+    font-size: 20px;
+
+}
+.tag{
+    margin-top: 15px;
+}
+.hr_tag{
+    width: 80%;
+    margin-left: 3px;
+}
+.relative_divs{
+    height: auto;
+    /* border: 1px solid blue; */
+}
+.absolute_p{
+    height: 100px;
+    width: 100px;
+    position: absolute;
+}
+.api{
+position: relative;
+margin: 77px 0px 0px 15px;
+}
+.flex_pp{
+    display: flex;
+}
+.same{
+    margin-top: 15px;
+}
+#r_p{
+    position: absolute;
+    margin-top: -22px;
+    width: 36%;
+}
+#r_p>p{
+    color: gray;
+  
+}
+.test{
+    width: 100%;
 }
