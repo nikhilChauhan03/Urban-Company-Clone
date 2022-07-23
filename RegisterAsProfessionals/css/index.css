@@ -65,6 +65,7 @@
         }
 
         #blue {
+            
             width: 85%;
             height: 160px;
             border-radius: 15px;
@@ -99,8 +100,16 @@
         }
         
         #in{
-            width: 110%;
-            margin: auto;
+            display: flex;
+            justify-content: space-around;
+            gap:5px;
+            align-items: center;
+            /* border:1px solid red; */
+            width: 100%;
+            margin-top: 15px;
+        }
+        #in input{
+          display: block;
         }
         input{
             height: 30px;
