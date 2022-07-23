@@ -8,17 +8,17 @@
 
         #nav {
             font-family: sans-serif;
-            padding: 0;
+            /* padding: 0; */
             width: 100%;
             top: 0;
-            left: 0;
+            /* left: 0; */
             transition: transform .2s ease-in;
             z-index: 1;
             background-color: #fff;
             position: sticky;
             top: 0px;
             padding: 10px 110px 10px 110px;
-            height: 100%;
+            /* height: 100%; */
             display: flex;
             flex-direction: row;
             align-items: center;
@@ -60,29 +60,30 @@
             /* border: 1px solid red; */
             height: 680px;
             background: url(https://s3-ap-southeast-1.amazonaws.com/urbanclap-prod/categories/category_v2/category_3cb50750.jpeg) no-repeat rgba(220, 240, 251, .5);
-            background-size: contain;
+            /* background-size: contain; */
             width: 100%;
         }
 
         #blue {
-            
+            /* border:1px solid red; */
             width: 85%;
             height: 160px;
             border-radius: 15px;
             margin-top: -15px;
-            margin-left: 150px;
+            margin-left: 120px;
             background-color: rgb(35, 93, 253);
             color: white;
             padding-bottom: 20px;
         }
 
         #text {
+            /* border:1px solid red; */
             margin-left: 40px;
             padding-top: 10px;
             font-size: 18px;
             font-weight: 600;
             font-style: normal;
-            width: 180%;
+            width: 100%;
             padding-right: 50px;
             font-family: axiforma-regular, -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Helvetica, Arial, sans-serif;
 
@@ -136,7 +137,7 @@
             text-rendering: optimizeLegibility;
             text-decoration: none;
             font-family: axiforma-regular, -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Helvetica, Arial, sans-serif;
-            width: 1136px;
+            width:100%;
             margin: 0 auto 60px;
             font-style: normal;
             font-weight: 700;
@@ -144,6 +145,7 @@
             text-align: center;
             color: #222;
             font-size: 25px;
+            /* border:1px solid red; */
         }
 
         h2 {
@@ -170,7 +172,7 @@
             font-style: normal;
             gap: 80px;
             margin-top: 90px;
-            text-decoration: none;
+            list-style: none;
         }
 
         #pp {
