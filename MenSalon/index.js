@@ -129,7 +129,7 @@ let details=[
 
 
 
-let cart=JSON.parse(localStorage.getItem("Pricing Details")) || []; 
+let cart=JSON.parse(localStorage.getItem("user_details")) || []; 
 
 function detail(details=[]){
     
@@ -162,7 +162,7 @@ function detail(details=[]){
       if(addToCardfun(el.offer)===true){
         alert("Product added Succesfully");
         cart.push(el);
-        localStorage.setItem("Pricing Details",JSON.stringify(cart));
+        localStorage.setItem("user_details",JSON.stringify(cart));
        
       }
      

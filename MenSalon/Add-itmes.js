@@ -1,6 +1,6 @@
  let added=document.getElementById("Item-added");
 
-let cart=JSON.parse(localStorage.getItem("Pricing Details")) ; 
+let cart=JSON.parse(localStorage.getItem("user_details")) ; 
 
 console.log(cart)
 
@@ -52,7 +52,7 @@ function Delete(id){
         return element.offer !=id;
     })
     cart=deleted;
-    localStorage.setItem("Pricing Details",JSON.stringify(cart));;
+    localStorage.setItem("user_details",JSON.stringify(cart));;
     displaydata(cart)
 
 }
