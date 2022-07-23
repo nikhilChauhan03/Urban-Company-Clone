@@ -3,6 +3,7 @@
             margin: 0;
             padding: 0;
             box-sizing: border-box;
+            text-decoration: none;
         }
 
         #nav {
@@ -106,6 +107,7 @@
 
         .Partner {
             text-rendering: optimizeLegibility;
+            text-decoration: none;
             font-family: axiforma-regular, -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Helvetica, Arial, sans-serif;
             width: 1136px;
             margin: 0 auto 60px;
@@ -141,6 +143,7 @@
             font-style: normal;
             gap: 80px;
             margin-top: 90px;
+            text-decoration: none;
         }
 
         #pp {
