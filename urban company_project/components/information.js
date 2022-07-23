@@ -1,11 +1,11 @@
 let importing=()=>{
     return ` <div class="swedish">
-    <h4>Strees Relief Swedish Massage<h4>
+    <h4 id="theraphy4">Strees Relief Swedish Massage<h4>
         <div class="rating">
         <i class="fa-solid fa-star"></i>
          4.81
         (189K) 
-        <p class="r1 rating">Start at <i class="fa-solid fa-indian-rupee-sign"></i><div id="product_price">1,199</div></p>
+        <p class="r1 rating">Start at <i class="fa-solid fa-indian-rupee-sign"></i><div id="product_price"><p id="p3">1,199</p></div></p>
     </div>
     </div>
     <div class="add_items"><button id="btn" onclick="payment()">Add</button>
