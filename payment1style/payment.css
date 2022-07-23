@@ -110,6 +110,11 @@ margin:5px 0px 20px 0px;
     font-size: 18px;
     cursor: pointer;
 }
+.nikhil_services>button:hover
+{
+border:1px solid grey;
+background-color: rgb(211, 211, 211);
+}
 
 .nikhil_services>div{
     display: flex;
@@ -294,6 +299,17 @@ font-weight: 600;
 line-height: 33px;
 color: grey;
 font-size: 19px;
+color: black;
+/* font-weight: lighter; */
+display: inline;
+}
+.nikhil_monthly_detais span
+{
+  text-decoration: line-through;
+  font-size: 16px;
+font-weight: lighter;
+
+
 }
 
 .nikhil_ra_button button
@@ -348,4 +364,14 @@ height: 30px;
 display: flex;
 align-items: center;
 justify-content: center;
+}
+.nikhil_ready_to_pay
+{
+  display: inline;
+  margin-right: 10px;
+}
+.nikhil_ready_to_pay~span
+{
+  text-decoration: line-through;
+  margin-top: 5px;
 }

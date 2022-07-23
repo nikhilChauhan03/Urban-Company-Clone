@@ -48,7 +48,7 @@
 
                     <div class="nikhil_price">
                         <p style="font-weight:600; font-size:20px;">Estimate savings</p>
-                        <h1 style="color:#07794c; line-height: 44px;">₹XXXX</h1>
+                        <h1 class="nikhil_green_price" style="color:#07794c; line-height: 44px;">₹XXXX</h1>
                     </div>
 
                     <div class="nikhil_geniuen">
@@ -59,12 +59,12 @@
                 <!-- no. of services per year -->
                 <div class="nikhil_services">
                     <p> No. of services / year</p>
-                    <button>2</button>
-                    <button>4</button>
-                    <button>6</button>
-                    <button>8</button>
-                    <button>10</button>
-                    <button>12</button>
+                    <button onclick="two()">2</button>
+                    <button onclick="four()">4</button>
+                    <button onclick="six()">6</button>
+                    <button onclick="eight()">8</button>
+                    <button onclick="ten()">10</button>
+                    <button onclick="twelev()">12</button>
 
                     <div><i style="font-size: 22px;" class="fa-solid fa-clipboard-list"></i> Subscribes placed 6 orders
                         on average in your area</div>
@@ -467,20 +467,23 @@
                     <div class="nikhil_monthly_detais">
                         <p>BOUGHT 6 LAKS+ TIMES</p>
                         <P>12 Months</P>
-                        <p>299 <span>₹999</span></p>
+                        <p class="nikhil_twelev_month_btn_plan">299</p>
+                        <span>₹999</span>
                     </div>
                     <div class="nikhil_ra_button">
-                        <button>Remove</button>
+                        <button onclick="twelve_month_btn()" class="nikhil_twelve_month_member">Remove</button>
                     </div>
                 </div>
 
                 <div class="nikhil_12_month">
                     <div class="nikhil_monthly_detais">
+                        <p></p>
                         <P>6 Months</P>
-                        <p>249 <span>₹699</span></p>
+                        <p class="nikhil_six_month_btn_plan">249 </p>
+                        <span>₹699</span>
                     </div>
                     <div class="nikhil_ra_button">
-                        <button>Add</button>
+                        <button class="nikhil_six_month_member" onclick="six_month_btn()">Add</button>
                     </div>
                 </div>
 
@@ -503,8 +506,11 @@
             <p>₹68 Plus discount applied</p>
         </div>
         <div class="nikhil_button_price">
-            <h3>₹xxx <span>xxxx</span></h3>
-            <button>Proceed<i class="fa-solid fa-arrow-right"></i></button>
+            <div style="display: flex;align-items:center;justify-content: space-between;">
+            <h3 class="nikhil_ready_to_pay">₹xxx </h3>
+            <span class="nikhil_disscount_of_sixeight">xxxx</span>
+            </div>
+            <button onclick="nextpage()" style="cursor:pointer">Proceed<i style="margin-left:30px" class="fa-solid fa-arrow-right"></i></button>
         </div>
     </div>
 
