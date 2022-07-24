@@ -22,6 +22,7 @@ faqs.forEach((el)=>{
 let userData = JSON.parse(localStorage.getItem("user_details"))
 console.log(userData)
 let greenPrice = document.querySelector(".nikhil_green_price")
+console.log(greenPrice)
 greenPrice.innerText = `₹ ${288}`
 
 // number of services per year button;
