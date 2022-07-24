@@ -1,0 +1,269 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: axiforma-regular, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+}
+#fortuner::before{
+    content: " ";
+    background: url('https://www.cruiseac.com/assets/images/banners/rB2KEoDVn31ZLdHamc76jpg.jpg')no-repeat center center/cover;
+    position: absolute;
+    width: 100%;
+    height: 70%;
+    top: 0%;
+    left: 0%;
+    z-index: -1;
+    opacity: 1;
+}
+#toyota{
+    width: 80%;
+    margin: auto;
+    /* border: 1px solid red; */
+}
+.fourty-four{
+    display: flex;
+    justify-content:space-between;
+    align-items: center;
+    /* border: 1px solid greenyellow; */
+}
+.fourty-one>div{
+    width: 35%;
+}
+.fourty-one>div>img{
+    width: 100%;
+    margin-top: 8px;
+}
+.fourty-three>div>a{
+    text-decoration: none;
+    text-align: center;
+    color: white;
+    font-weight: bold;
+}
+h1{
+    text-align: center;
+    font-size: 50px;
+    margin: 30px;
+    color: black;
+    margin-top: 10%;
+    font-weight: 400;
+}
+.fourty-three{
+    display:flex;
+    width: 40%;
+    justify-content: space-evenly;
+    /* border: 1px solid greenyellow; */
+}
+.fourty-two{
+    margin-left: 20%;
+}
+.fourty-two>select{
+    font-size: larger;
+    padding: 11px;
+    border-radius: 5px;
+    margin: 8px;
+}
+.fourty-two>input{
+    font-size: larger;
+    padding: 11px;
+    border-radius: 5px;
+    width: 65%;
+    margin: 8px;
+}
+.fourty-two>div{
+    margin-left: 20%;
+    font-size: large;
+    /* padding: 10px; */
+}
+.fourty-two>div>a{
+    color: white;
+    margin: 5px;
+}
+
+.fourty-six{
+    display: flex;
+    background-color: white;
+    width: 70%;
+    position: absolute;
+    top: 60%;
+    border-radius: 5px;
+    left: 16%;
+    height: 150px;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+    cursor: pointer;
+}
+.fourty-six>div{
+    width: 20%;
+    /* border: 1px solid red; */
+    padding-top: 10px;
+}
+.twentytwo>img{
+    width: 15%;
+    margin-left: 40%;
+    cursor: pointer;
+}
+.twentytwo>p{
+    font-size: 12px;
+    text-align: center;
+}
+.twentythree>img{
+    width: 15%;
+    margin-left: 40%;
+    cursor: pointer;
+}
+.twentythree>p{
+    font-size: 12px;
+    text-align: center;
+}
+.twentyfour>img{
+    width: 15%;
+    margin-left: 40%;
+    cursor: pointer;
+}
+.twentyfour>p{
+    padding-top: 8px;
+    font-size: 12px;
+    text-align: center;
+}
+.twentyfive>img{
+    width: 15%;
+    margin-left: 40%;
+    cursor: pointer;
+}
+.twentyfive>p{
+    padding-top: 8px;
+    font-size: 12px;
+    text-align: center;
+}
+.twentysix>img{
+    width: 15%;
+    margin-left: 40%;
+    cursor: pointer;
+}
+.twentysix>p{
+    font-size: 12px;
+    text-align: center;
+}
+.twentyseven>img{
+    width: 15%;
+    margin-top: 20px;
+    margin-left: 40%;
+    cursor: pointer;
+}
+.twentyseven>p{
+    font-size: 12px;
+    text-align: center;
+}
+#fifty{
+    display:flex;
+    background-color: white;
+    width: 70%;
+    position: absolute;
+    top: 75%;
+    left: 16%;
+    border-radius: 5px;
+    height: 150px;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+    /* border: 1px solid red; */
+    cursor: pointer;
+}
+.fourty-seven{
+    width: 20%;
+    /* border: 1px solid green; */
+}
+.fourty-seven>img{
+    width: 30%;
+    margin-left: 30%;
+    cursor: pointer;
+}
+.fourty-seven>p{
+    font-size: 12px;
+    text-align: center;
+}
+.fourty-eight{
+    width: 20%;
+    padding-top: 20px;
+    /* border: 1px solid green; */
+}
+.fourty-eight>img{
+    width: 20%;
+    margin-left: 40%;
+    cursor: pointer;
+}
+.fourty-eight>p{
+    font-size: 12px;
+    text-align: center;
+}
+.fourty-nine{
+    width: 20%;
+    padding-top: 20px;
+    /* border: 1px solid green; */
+}
+.fourty-nine>img{
+    width: 25%;
+    margin-left: 35%;
+    cursor: pointer;
+}
+.fourty-nine>p{
+    font-size: 12px;
+    text-align: center;
+}
+.fifty-one{
+    width: 20%;
+    padding-top: 20px;
+    /* border: 1px solid green; */
+}
+.fifty-one>img{
+    width: 15%;
+    margin-left: 40%;
+    cursor: pointer;
+}
+.fifty-one>p{
+    font-size: 12px;
+    text-align: center;
+}
+.fifty-two{
+    /* border: 1px solid greenyellow; */
+   width: 65%;
+   margin: auto;
+   margin-top: 25%;
+   height: 200px;
+   
+}
+.carousel-cell{
+    margin: 20px 20px;
+}
+.carousel-cell>img{
+    border-radius: 8px;
+}
+#bmw{
+    width: 80%;
+    /* border: 1px solid greenyellow; */
+    height: 150px;
+    margin: auto;
+    margin-top: 8%;
+    box-shadow: rgba(0, 0, 0, 0.1) 0px 10px 50px;
+    margin: 10%;
+}
+#bmw>button{
+    font-size: larger;
+    padding: 8px 25px;
+    background-color: rgb(200, 198, 198);
+    margin-left: 10%;
+    color: black;
+    border-radius: 8px;
+    margin-top: 10px;
+}
+#bmw>p{
+  width: 70%;
+  font-size: x-large;
+  margin-left: 10%;
+  margin-top: 10px;
+
+}
+
+
+
+
+
+
+
