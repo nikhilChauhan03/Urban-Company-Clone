@@ -9,14 +9,14 @@ faqs.forEach((el)=>{
 
 // estimate price in green color
 // ///////////////////////////////////////////////////////////////////
-let arr = [{
-    data:"Hari cut + face mask",
-    main_part111: "face & Neck Detan Pack",
-    main_part122: "Main's Haircut",
-    p:"550",
-}]
-localStorage.setItem("user_details",JSON.stringify(arr))
-////////////////////////////////////////////////////////////////////////////////
+// let arr = [{
+//     data:"Hari cut + face mask",
+//     main_part111: "face & Neck Detan Pack",
+//     main_part122: "Main's Haircut",
+//     p:"550",
+// }]
+// localStorage.setItem("user_details",JSON.stringify(arr))
+// ////////////////////////////////////////////////////////////////////////////////
 
 
 let userData = JSON.parse(localStorage.getItem("user_details"))
