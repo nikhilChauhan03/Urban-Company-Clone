@@ -172,6 +172,9 @@ let append2=(p)=>{
   let btn=document.createElement("button");
   btn.setAttribute("id","new_btn");
   btn.innerText="View Cart"
+  btn.addEventListener("click",function(){
+    payment_page();
+  })
   div4.setAttribute("class","hide4");
   div3.setAttribute("class","hide3");
   div3.innerHTML="$"+p+"<br>";
@@ -249,4 +252,7 @@ else{
   p=p-500;
   cp.innerHTML=p;
 }
+}
+let payment_page=()=>{
+window.location.href="../payment1.html";
 }
