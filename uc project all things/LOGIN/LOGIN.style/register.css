@@ -1,0 +1,156 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  background: var(--colors-page-primary-enabled-surface);
+  color: var(--colors-page-primary-enabled-text);
+  font-family: var(--typography-footnote-font-family);
+}
+
+#main {
+  text-align: center;
+  width: 28%;
+  padding:28px;
+  margin: 30px auto;
+  /* border:1px solid red; */
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+  border-radius: 8px;
+  /* pa-left: 1060px; */
+}
+
+#main h2 {
+  color: var(--colors-modality-primary-enabled-label);
+  font-weight: 400;
+  text-align: left;
+  font-size: 25px;
+  margin-left:10px;
+}
+
+.second {
+  border-bottom: 0.1px solid black;
+  width: 90%;
+  margin-top: 15px;
+  box-sizing: border-box;
+  display: flex;
+  padding-left: 10px;
+  margin-bottom: 20px;
+  box-sizing: border-box;
+}
+
+.second>div:nth-child(1) {
+  text-align: center;
+}
+
+.third {
+  margin: auto;
+  text-align: left;
+}
+
+#signin {
+  text-align: center;
+  justify-content: center;
+  height: 100%;
+  margin-right: 25px;
+}
+
+.first {
+  display: flex;
+  justify-content: space-between;
+}
+
+.first span {
+  height: 5px;
+  width: 5px;
+  font-size: 25px;
+  margin-left: -20px;
+}
+
+.first a {
+  margin-left: -15px;
+}
+
+#here {
+  text-align: center;
+  border-bottom: 2px solid black;
+  /* justify-content: center; */
+  /* padding-top: 15px; */
+  /* box-sizing: border-box; */
+  /* width: 40%; */
+  /* height: 100%; */
+  text-decoration: none;
+}
+
+input {
+  height: 40px;
+  width: 330px;
+  padding-left: 10px;
+  border-radius: 5px;
+  margin-top: 6px;
+  margin-bottom: 10px;
+}
+
+#submit {
+  margin-top: 30px;
+  width: 330px;
+  height: 50px;
+  background-color: black;
+  color: white;
+  text-align: center;
+  border-radius: 7px;
+  font-size: 20px;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+a {
+  text-decoration: none;
+  color: black;
+  margin-left: 10px;
+}
+
+label {
+  font-size: 20px;
+  /* margin-bottom: 20px; */
+}
+
+#check {
+  display: flex;
+  width: 95%;
+  /* border: 1px solid black; */
+  align-items: center;
+  /* justify-content: space-between; */
+}
+
+#check input {
+  height: 14px;
+  width: 14px;
+  border-radius: 5px;
+}
+
+#check span {
+  margin-left: 10px;
+}
+
+h4 {
+  text-align: center;
+  font-size: 20px;
+}
+
+.for {
+  display: flex;
+  padding: 10px 20px;
+  border: 1px solid brown;
+  border-radius: 5px;
+  width: 330px;
+  margin-bottom: 20px;
+  cursor: pointer;
+}
+
+.for img {
+  height: 20px;
+  width: 20px;
+  margin-right: 30px;
+}
+
+.for p {
+  text-align: center;
+}
