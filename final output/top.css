@@ -43,7 +43,7 @@ h1{
     text-align: center;
     font-size: 50px;
     margin: 30px;
-    color: black;
+    color: white;
     margin-top: 10%;
     font-weight: 400;
 }
@@ -101,38 +101,50 @@ h1{
     margin-left: 40%;
     cursor: pointer;
 }
-.twentytwo>p{
+.twentytwo>a{
     font-size: 12px;
     text-align: center;
+    text-decoration: none;
+    color: black;
+    display: block;
 }
 .twentythree>img{
     width: 15%;
     margin-left: 40%;
     cursor: pointer;
 }
-.twentythree>p{
+.twentythree>a{
     font-size: 12px;
     text-align: center;
+    text-decoration: none;
+    color: black;
+    display: block;
 }
 .twentyfour>img{
     width: 15%;
     margin-left: 40%;
     cursor: pointer;
 }
-.twentyfour>p{
+.twentyfour>a{
     padding-top: 8px;
     font-size: 12px;
     text-align: center;
+    text-decoration: none;
+    color: black;
+    display: block;
 }
 .twentyfive>img{
     width: 15%;
     margin-left: 40%;
     cursor: pointer;
 }
-.twentyfive>p{
+.twentyfive>a{
     padding-top: 8px;
     font-size: 12px;
     text-align: center;
+    text-decoration: none;
+    color: black;
+    display: block;
 }
 .twentysix>img{
     width: 15%;
@@ -149,9 +161,12 @@ h1{
     margin-left: 40%;
     cursor: pointer;
 }
-.twentyseven>p{
+.twentyseven>a{
     font-size: 12px;
     text-align: center;
+    text-decoration: none;
+    color: black;
+    display: block;
 }
 #fifty{
     display:flex;

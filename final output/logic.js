@@ -1,38 +1,12 @@
-function hair(){
-    window.location.href='https://www.youtube.com/'
-}
+let id = document.getElementById('mearge')
 
-function salon(){
-    window.location.href
+let fromLs = JSON.parse(localStorage.getItem("createaccount"));
+if(fromLs[0]['name']){
+    id.innerText=fromLs[0]['name']
 }
+else{
+    id.innerText='Log-In/Sign-Up'
+}
+console.log(fromLs)
 
-function women(){
-    window.location.href
-}
 
-function men(){
-    window.location.href
-}
-
-function electric(){
-    window.location.href
-}
-function ac(){
-    window.location.href
-}
-
-function cleaning(){
-    window.location.href
-}
-
-function personal(){
-    window.location.href
-}
-
-function plumber(){
-    window.location.href
-}
-
-function salonWomen(){
-    window.location.href
-}

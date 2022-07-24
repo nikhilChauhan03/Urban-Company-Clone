@@ -17,7 +17,7 @@
         data.push(obj);
         localStorage.setItem("createaccount", JSON.stringify(data));
         alert("SignIn success");
-        window.location.href="index.html";
+        window.location.href="../../final output/home.html";
     }else{
         alert("Wrong username or password");
     }
