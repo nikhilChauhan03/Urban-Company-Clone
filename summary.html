@@ -15,7 +15,7 @@
             <!-- summary heading -->
 
             <div class="nikhil_page_head">
-                <h2 onclick="previousPage()" style="cursor: pointer;"><i class="fa-solid fa-arrow-left-long"></i></h2>
+                <h2><i class="fa-solid fa-arrow-left-long"></i></h2>
                 <p>Summary</p>
             </div>
 
@@ -30,43 +30,36 @@
                 <div class="nikhil_left_box_summary">
 
                     <!-- title and button -->
-                    <div class="nikhil_product_details_contaienr">
-
-                        <div class="nikhil_all_content_title_button">
+                    <div class="nikhil_all_content_title_button">
 
 
-                            <!-- <div class="nikhil_title_button_flex"> -->
+                        <div class="nikhil_title_button_flex">
 
-                            <!-- <p class="nikhil_service_name">Name of the service</p>
+                            <p id="nikhil_service_name">Name of the service</p>
 
-                                <div class="nikhil_button_plus_minus">
+                            <div style="display: flex;" class="nikhil_button_plus_minus">
 
-                                    <button class="nikhil_minus">-</button>
-                                    <h3 class="nikhil_digit">1</h3>
-                                    <button class="nikhil_plus">+</button>
+                                <button class="nikhil_minus">-</button>
+                                <h3 class="nikhil_digit">1</h3>
+                                <button class="nikhil_plus">+</button>
 
-                                </div> -->
+                            </div>
 
 
-
-                            <!-- </div> -->
-                            <!-- <div class="nikhil_amount_title"> -->
-                            <!-- <p class="nikhil_price_titile">
-                                    xxxx
-                                </p> -->
-                            <!-- </div> -->
 
                         </div>
-                        <!-- <div style="width:100%;height:120px;border:1px solid;" class="nikhil_details_in_container"> -->
-                        <!-- / -->
+                        <div class="nikhil_amount_title">
+                            <p class="nikhil_price_titile">
+                                xxxx
+                            </p>
+                        </div>
 
-                        <!-- </div> -->
                     </div>
                     <!-- basic details of the product div -->
+                    <div style="width:100%;height:120px;border:1px solid;" class="nikhil_details_in_container">
+                        <!-- append the data here -->
 
-
-
-
+                    </div>
                     <!-- plus memmber ship -->
                     <div class="nikhil_all_content_title_button">
 
@@ -78,14 +71,13 @@
                                 <p>12 months</p>
                             </div>
 
-
+                            <div class="nikhil_membership_button">
+                                <button>Remove</button>
+                            </div>
 
 
                         </div>
                         <div class="nikhil_amount_title">
-                            <div class="nikhil_membership_button">
-                                <button class="nikhil_change_text" onclick="removebtn()">Remove</button>
-                            </div>
                             <p class="nikhil_price_titile">
                                 ₹299
                             </p>
@@ -106,28 +98,28 @@
                     <div class="nikhil_frequently_added_container">
 
                         <div class="nikhil_frquently_added_items">
-                            <img src="./img summary/beard.png" alt="">
-                            <p class="heading">Bears Shaping & Styling</p>
-                            <p class="p">199</p>
-                            <button onclick="one()">Add</button>
+                            <img src="./img summary/head.png" alt="">
+                            <p>Bears Shaping & Styling</p>
+                            <p>₹199</p>
+                            <button>Add</button>
                         </div>
                         <div class="nikhil_frquently_added_items">
                             <img src="./img summary/head.png" alt="">
-                            <p class="heading1">Relaxing Head Massage</p>
-                            <p class="p1">99</p>
-                            <button onclick="two()">Add</button>
+                            <p>Relaxing Head Massage</p>
+                            <p>₹99</p>
+                            <button>Add</button>
                         </div>
                         <div class="nikhil_frquently_added_items">
                             <img src="./img summary/clean.png" alt="">
-                            <p class="heading2"> Clean Shave/Moustac...</p>
-                            <p class="p2">149</p>
-                            <button onclick="three()">Add</button>
+                            <p>Clean Shave/Moustac...</p>
+                            <p>₹149</p>
+                            <button>Add</button>
                         </div>
                         <div class="nikhil_frquently_added_items">
                             <img src="./img summary/color.png" alt="">
-                            <p class="heading3">Hair Color - Applicatoin only</p>
-                            <p class="p3">199</p>
-                            <button onclick="four()">Add</button>
+                            <p>Hair Color - Applicatoin only</p>
+                            <p>₹199</p>
+                            <button>Add</button>
                         </div>
 
                     </div>
@@ -154,26 +146,21 @@
 
                                 <div class="nikhil_total_price_itmes">
                                     <p>Item total</p>
-                                    <p class="nikhil_product_price">xxxx</p>
+                                    <p class=".nikhil_product_price">xxxx</p>
                                 </div>
                                 <div class="nikhil_total_price_itmes">
                                     <p>Tip for professional</p>
-                                    <p class="nikhil_tip_price">30</p>
+                                    <p>₹30</p>
                                 </div>
                                 <div class="nikhil_total_price_itmes">
                                     <p>Convenience fee</p>
-                                    <p class="nikhil_fee">49</p>
-                                </div>
-                                <div class="nikhil_total_price_itmes">
-                                    <p>Plus Membership</p>
-                                    <p class="nikhil_membership_fee">299</p>
-
+                                    <p>₹49</p>
                                 </div>
 
                                 <hr class="nikhil_3_line">
                                 <div class="nikhil_all_total_price">
                                     <h3>Total</h3>
-                                    <h3 class="nikhil_all_total_number">xxx</h3>
+                                    <h3 class=".nikhil_all_total_number">xxx</h3>
                                 </div>
 
 
@@ -192,11 +179,11 @@
 
                         <div class="nikhil_adding_small_tip_box">
 
-                            <button onclick="thirty()">₹30</button>
-                            <button onclick="fifty()">₹50</button>
+                            <button>₹30</button>
+                            <button>₹50</button>
                             <span>POPULAR</span>
-                            <button onclick="hund()">₹100</button>
-                            <button onclick="onefive()">₹150</button>
+                            <button>₹100</button>
+                            <button>Custom</button>
 
                         </div>
 
@@ -215,15 +202,15 @@
                         <!-- <button class="nikhil_change_address_to_para">Change</button> -->
 
                     </div>
+                    <button class="nikhil_add_address">Add new address</button>
 
+
+                    <button class="nikhl_add_address_and_slot">Pay</button>
                 </div>
 
             </div>
 
-            <div class="nikhi_paymentgateway_button_box">
-                <button class="nikhil_add_address">Add new address</button>
-                <button onclick="nextPayment()" class="nikhl_add_address_and_slot">Pay</button>
-            </div>
+
 
         </div>
 

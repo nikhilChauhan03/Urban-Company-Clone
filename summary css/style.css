@@ -47,11 +47,6 @@ hr {
   padding-top: 20px;
 }
 
-.nikhil_service_name
-{
-  font-weight: 600;
-  font-size: 18px;
-}
 .nikhil_right_box_summary {
   /* border: 1px solid yellow; */
 }
@@ -59,49 +54,18 @@ hr {
 /* customization fo title section */
 
 .nikhil_all_content_title_button {
-  display: flex;
+  display: grid;
+  grid-template-columns: 80% 20%;
   gap: 40px;
-  align-items: center;
-  justify-content: center;
-}
-
-.nikhil_product_details_contaienr
-{
-  margin-top: -70px;
-  border-bottom: 2px solid rgb(191, 190, 190);
-  padding-bottom:20px ;
 }
 
 .nikhil_title_button_flex {
-  width: 95%;
-  /* height: 60px; */
+  height: 60px;
   display: flex;
   justify-content: space-between;
   align-items: center;
   border-bottom: 2px solid rgb(192, 192, 192);
   margin-bottom: 18px;
-}
-.nikhil_change_text
-{
-  cursor: pointer;
-}
-.nikhil_price_titile
-{
-  display: flex;
-  justify-content: flex-end;
-  width: 100%;
-}
-.nikhil_amount_title
-{
-  
-  display: flex;
-  justify-content: flex-end;
-  align-items: center;
-  padding-bottom: 22;
-}
-.nikhil_button_plus_minus
-{
-  display: flex;
 }
 
 .nikhil_button_plus_minus,
@@ -130,31 +94,18 @@ hr {
   color: blueviolet;
   background-color: #f2f0ff;
 }
-
-.nikhil_membership_button
-{
-  margin-right: 20px;
-}
 .nikhil_amount_title {
   display: flex;
   justify-content: space-between;
   align-items: center;
   font-size: 22px;
 }
-.nikhil_all_content_title_button
-{
 
+.nikhil_memberhsip_section {
   display: flex;
   justify-content: space-between;
-  margin-top: 40px;
   align-items: center;
-}
-
-.nikhil_amount_title {
-  width: 25%;
-  display: flex;
-  justify-content: space-between;
-  /* align-items: center; */
+  margin-top: 40px;
 }
 
 /* 2nd horizontal line */
@@ -454,38 +405,3 @@ hr {
   margin-left: 23rem;
   font-size: 21px;
 }
-
-.nikhil_adding_small_tip_box.active button
-{
-border: 1px solid ;
-background-color: rgb(211, 211, 211);
-}
-
-.nikhil_adding_small_tip_box button:hover
-{
-border: 1px solid ;
-background-color: rgb(238, 238, 238);
-}
-
-.nikhil_rightbx_two_parts
-{
-  position: relative;
-}
-.nikhi_paymentgateway_button_box 
-{
-  display: block;
-}
-
-.nikhi_paymentgateway_button_box
-{
-  width: 31%;
-  position: fixed;
-  top:84.8%;
-  left: 55%;
-  z-index: 1;
-}
-.nikhi_paymentgateway_button_box button
-{
-  width: 100%;
-}
-
