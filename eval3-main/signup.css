@@ -1,0 +1,31 @@
+#navbar{
+    display: flex;
+    background-color: black;
+    font-size: 30px;
+    justify-content: space-around;
+    color: white;
+}
+a{
+    color:white;
+}
+#form{
+    margin: auto;
+    margin-top: 2%;
+   background-color: teal;
+    width: 50%;
+    border:1px solid;
+    text-align: center;
+
+
+}
+input{
+    margin-top: 10px;
+    font-size: 20px;
+    width: 50%;
+}
+button{
+    margin-top: 10px;
+    font-size: 20px;
+     margin-bottom: 1%;
+     border: none;
+     background-color: red;}
