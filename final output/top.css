@@ -97,6 +97,8 @@ h1{
     padding-top: 10px;
 }
 .twentytwo>img{
+     /* display: inline-block; */
+    margin-right:50%;
     width: 15%;
     margin-left: 40%;
     cursor: pointer;
@@ -109,6 +111,7 @@ h1{
     display: block;
 }
 .twentythree>img{
+   margin-right:50%;
     width: 15%;
     margin-left: 40%;
     cursor: pointer;
@@ -121,6 +124,7 @@ h1{
     display: block;
 }
 .twentyfour>img{
+    margin-right:50%;
     width: 15%;
     margin-left: 40%;
     cursor: pointer;
@@ -134,6 +138,7 @@ h1{
     display: block;
 }
 .twentyfive>img{
+    margin-right:50%;
     width: 15%;
     margin-left: 40%;
     cursor: pointer;
@@ -156,6 +161,7 @@ h1{
     text-align: center;
 }
 .twentyseven>img{
+    margin-right:50%;
     width: 15%;
     margin-top: 20px;
     margin-left: 40%;
