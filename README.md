@@ -25,7 +25,7 @@ to purchase step-door services like Hair-cut, house Repairing and many more.
 
 ## Deployment
 
-To deploy this project run
+To run
 
 ```bash
   https://rainbow-smakager-616752.netlify.app/final%20output/home
