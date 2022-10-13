@@ -32,6 +32,9 @@ To run
 ```
 
 
-## 🔗 Links
-[![portfolio](https://img.shields.io/badge/my_portfolio-000?style=for-the-badge&logo=ko-fi&logoColor=white)](https://nlucifer03.github.io/)
-[![linkedin](https://img.shields.io/badge/linkedin-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/nikhil-chauhan-744b58236/)
+## Team Members
+-- Nikhil Chauhan (Team Lead)
+-- Anmol Jagota
+-- Kunal Deotale
+-- Nayan Singh
+-- Musavvir Shaikh
