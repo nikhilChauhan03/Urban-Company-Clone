@@ -33,8 +33,8 @@ To run
 
 
 ## Team Members
--- Nikhil Chauhan (Team Lead)
--- Anmol Jagota
--- Kunal Deotale
--- Nayan Singh
--- Musavvir Shaikh
+- Nikhil Chauhan (Team Lead)
+- Anmol Jagota
+- Kunal Deotale
+- Nayan Singh
+- Musavvir Shaikh
